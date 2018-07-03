@@ -1,3 +1,4 @@
+
 from imageai.Detection import VideoObjectDetection
 import os
 
@@ -12,3 +13,5 @@ video_path = detector.detectObjectsFromVideo(input_file_path=os.path.join(execut
                                 output_file_path=os.path.join(execution_path, "traffic_detected")
                                 , frames_per_second=20, log_progress=True)
 print(video_path)
+
+
